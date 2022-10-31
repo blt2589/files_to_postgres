@@ -17,7 +17,7 @@ load_dotenv()
 db_connection_url = os.getenv('sandboxurl')
 engine = create_engine(db_connection_url)
 
-schema_name = <your_schema_here>
+schema_name = '<your_schema_here>'
 
 
 def custom_usage_message():
